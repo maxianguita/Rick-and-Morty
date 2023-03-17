@@ -1,0 +1,31 @@
+ .searchInput {
+
+     border: 0px;
+     border-radius: 20px 0px 0px 20px;
+     background-color: azure;
+     height: 3em;
+     cursor: pointer;
+
+ }
+
+ .searchButton {
+     border: 0px;
+     border-radius: 0px 20px 20px 0px;
+     background-color: azure;
+     height: 3em;
+     cursor: pointer;
+     color: white;
+
+
+ }
+
+ .bar {
+
+     display: flex;
+     align-items: center;
+     margin-left: 1100px;
+     cursor: pointer;
+
+
+
+ }
