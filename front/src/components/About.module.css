@@ -1,0 +1,44 @@
+
+ .titulo.about {
+    padding-top: 200px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+    
+}
+
+h1 {
+    color: #000000;
+    font-size: 58px;
+    text-align: center;
+     text-shadow: 2px 2px #fefefe; 
+    filter: drop-shadow(8px 8px 4px #faea10ee);
+}
+
+h2 {
+
+    color: #000000;
+    font-size: 38px;
+    text-align: center;
+    text-shadow: 2px 2px #ffffff;
+    animation: move 2s linear infinite;
+    filter: drop-shadow(8px 8px 4px #f1f1f1ee);
+} 
+
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
